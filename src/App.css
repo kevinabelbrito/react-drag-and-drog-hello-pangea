@@ -1,0 +1,60 @@
+
+.droppable-container {
+  padding: 2vw;
+  border: 2px solid brown;
+  border-radius: 4px;
+  margin: 5vw 0;
+  min-width: 5vw;
+  min-height: 5vw;
+}
+
+.draggable-container {
+  background: #1A79CB;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0.3vw 0.8vw;
+  margin: 2vw 0;
+  /* position: static; */
+  min-width: 5vw;
+  max-width: 7vw;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.field {
+    background-color: lightgreen;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5vw;
+}
+
+.base {
+    width: 100px;
+	height: 100px;
+	background-color: #fff;
+    border: 1px solid rgb(129, 2, 2);
+    align-items: center;
+    align-content: center;
+}
+
+.base-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30vw;
+}
